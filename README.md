@@ -1,4 +1,4 @@
-# Space Survivor II: AI-Driven UI Architecture Showcase
+# Antigravity: AI-Driven UI Architecture Showcase
 
 **Developer:** Christopher J. Jepson  
 **Role Focus:** Technical Artist / DevSecOps Engineer  
