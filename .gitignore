@@ -1,0 +1,77 @@
+# ==========================================
+# Unreal Engine Core Folders
+# ==========================================
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+FileOpenOrder/
+
+# ==========================================
+# IDE & AI Workspace Files
+# ==========================================
+.vscode/
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docuser.tar.gz
+*.code-workspace
+
+# Ignore Antigravity/Gemini local context and workspace data
+.antigravity/
+.gemini/
+mcp_config.json
+
+# ==========================================
+# Compiled Code
+# ==========================================
+*.pdb
+*.obj
+*.exe
+*.dll
+
+# ==========================================
+# Plugins & Third-Party
+# ==========================================
+# Ignore plugins (including VibeUE) to save massive space and respect licensing.
+# Your generated C++ in the Source/ folder will still prove your work.
+Plugins/
+
+# ==========================================
+# Content & GitHub Paywall Protection
+# ==========================================
+# Ignore Epic's heavy starter assets and marketplace downloads
+Content/StarterContent/
+Content/Marketplace/
+
+# Ignore heavy source media that the AI did not generate
+# (Prevents accidentally pushing 100MB+ textures or audio files)
+*.fbx
+*.wav
+*.mp3
+*.png
+*.tga
+*.psd
+*.exr
+
+# Ignore External Actor and Object data to prevent massive commit bloat
+__ExternalActors__/
+__ExternalObjects__/
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Compiled Code & Build Temps
+# ==========================================
+*.pdb
+*.obj
+*.exe
+*.dll
+*.rsp
